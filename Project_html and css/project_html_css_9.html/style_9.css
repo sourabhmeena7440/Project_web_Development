@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    line-height: 1.4;
+    font-weight: 300;
+    scroll-behavior: smooth;
+    /* font-family: "Roboto", sans-serif; */
+}
+
+
+/* dot hat jate hai */
+ul{
+    list-style: none;   
+}
+/* underline close */
+a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background: purple;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.logo{
+    font-size: 32px;
+    font-weight: 600;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li{
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in-out;
+}
+nav ul li:hover{
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in-out;
+}
+
+/* hero section  */
+.hero-section{
+    background-image: url(ComputerScienceImage.jpg);
+    height: 100vh;
+    display: grid;
+    color: white;
+    place-items: center;
+    text-align: center;
+}
+
+.hero-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero-section h1{
+    font-size: 96px;
+}
+.hero-section h3{
+    font-size: 32px;
+}
+
+
+/* mosic section */
+.music_section{
+    padding-top: 50px;
+    background: blueviolet;
+}
+.music_section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.ipad-iphone-img{
+    margin-top: -400px;
+    position: relative;
+    top: 400px;
+}
+button{
+    padding: 10px 15px;
+    border: none;
+    background-color: red;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    opacity: 0.8;
+    transition: 0,2s ease-in-out;
+    background: orange;
+    color: white;
+}
+
+/* section */
+.secondary-btn{
+    background-color: blue;
+    color: white;
+}
+.about_music{
+    padding-top: 500px;
+    display: grid;
+    gap: 50px;
+    place-items: center;
+    margin-bottom: 50px;
+}
+.vedio-section{
+    background-image: url(ComputerScienceImage.jpg);
+    min-height: 800px;
+    display: grid;
+    place-items: center;
+    color: white;
+    text-align: center;
+}
+.vedio-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: -200px;
+}
+/* image goom out karne per repete na ho */
+.hero-section .vedio-section{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* gift card */
+.gift-section{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    gap: 50px;
+}
+.gift-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/* footer  */
+.footer-upper{
+    background-color: #600;
+    padding: 20px;
+}
+.footer-upper .container{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.footer-upper h4{
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+}
+
+.footer-lower{
+    background-color: #300;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+/* ficex karne ke liye */
+section{
+    scroll-margin: 50px;
+}
