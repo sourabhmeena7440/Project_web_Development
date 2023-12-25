@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url(bilding.jpg);
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.title{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.col{
+    margin-top: 10px;
+    width: 1000px;
+    /* height: 100px; */
+    display: flex;
+    /* border: 1px solid red; */
+    /* margin: 10px auto; */
+    justify-content: center;
+    /* text-align: center; */
+    color: white;
+}
+.col div{
+    width: 250px;
+    text-align: center;
+}
+input{
+    width: 60%;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.9);
+    /* border close karne ke liye */
+    border-color: transparent;  
+    border-radius: 5px;
+    /* display: block; */
+    text-align: center;
+    font-size: 30px;
+}
